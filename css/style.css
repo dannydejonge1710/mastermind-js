@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(../img/poker.jpg);
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#all{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#chooseColor{
+	background-color: black;
+	width: 300px;
+	height: 50px;
+	position: relative;
+	margin-left: 50px;
+	border: 5px solid black;
+	border-radius: 20px;
+}
+
+#colorRed{
+	background-color: red;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 50px;	
+}
+
+#colorOrange{
+	background-color: orange;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	left: 50px;
+	border-radius: 50px;
+}
+
+#colorYellow{
+	background-color: yellow;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	border-radius: 50px;
+}
+
+#colorGreen{
+	background-color: green;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	left: 150px;
+	border-radius: 50px;
+}
+
+#colorBlue{
+	background-color: blue;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	border-radius: 50px;
+}
+
+#colorPurple{
+	background-color: purple;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	left: 250px;
+	border-radius: 50px;
+}
+
+#mainBoard{
+	border: 2px solid black;
+	width: 450px;
+	height: 800px;
+	background-image: url(../img/aluminium.jpg);
+	margin-left: 50px;
+	position: relative;
+	border-radius: 20px;
+}
+
+#rightBoard{
+	width: 200px;
+	height: 800px;
+}
+
+#option1{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: black;
+	position: absolute;
+	top: 750px;
+	left: 50px;
+	
+}
+
+#option2{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: black;
+	position: absolute;
+	top: 750px;
+	left: 150px;
+}
+
+#option3{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: black;
+	position: absolute;
+	top: 750px;
+	left: 250px;
+}
+
+#option4{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: black;
+	position: absolute;
+	top: 750px;
+	left: 350px;
+}
