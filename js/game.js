@@ -8,7 +8,6 @@ function addColor(frituurpan){
 	var kleur = kleurenLijst [frituurpan];
 	document.getElementById('option' + count).style.backgroundColor = kleur;
 	count ++;
-
 }
 
 function addComb(){
