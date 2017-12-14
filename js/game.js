@@ -20,13 +20,13 @@ function addColor(frituurpan){
 	document.getElementById('option' + count).style.backgroundColor = kleur;
 
 	if (count) {
-		if (frituupan = xvar) {
+		if (frituurpan == xvar) {
 			alert('good');
-		} else if (frituurpan = xvar1) {
+		} else if (frituurpan == xvar1) {
 			alert('almost good');
-		} else if (frituurpan = xvar2) {
+		} else if (frituurpan == xvar2) {
 			alert('almost good');
-		} else if (frituurpan = xvar3) {
+		} else if (frituurpan == xvar3) {
 			alert('almost good');
 		} else {
 			alert('false');
