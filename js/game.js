@@ -1,38 +1,42 @@
 var kleurenLijst = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
 var count = 6;
-var countvar = 0;
+var countEr = 0;
 
-var xvar = Math.floor((Math.random() * 6) + 0);
-document.getElementById('test').style.backgroundColor = kleurenLijst[xvar];
 
-var xvar1 = Math.floor((Math.random() * 6) + 0);
-document.getElementById('test1').style.backgroundColor = kleurenLijst[xvar1];
 
-var xvar2 = Math.floor((Math.random() * 6) + 0);
-document.getElementById('test2').style.backgroundColor = kleurenLijst[xvar2];	
+var w = Math.floor((Math.random() * 6) + 0);
+document.getElementById('test').style.backgroundColor = kleurenLijst[w];
 
-var xvar3 = Math.floor((Math.random() * 6) + 0);
-document.getElementById('test3').style.backgroundColor = kleurenLijst[xvar3];
+var x = Math.floor((Math.random() * 6) + 0);
+document.getElementById('test1').style.backgroundColor = kleurenLijst[x];
+
+var y = Math.floor((Math.random() * 6) + 0);
+document.getElementById('test2').style.backgroundColor = kleurenLijst[y];	
+
+var z = Math.floor((Math.random() * 6) + 0);
+document.getElementById('test3').style.backgroundColor = kleurenLijst[z];
+
+var randomArray = [w, x, y, z];
+
+
 
 function addColor(frituurpan){
 
-	var kleur = kleurenLijst [frituurpan];
+	var kleur = kleurenLijst [frituurpan];		
 	document.getElementById('option' + count).style.backgroundColor = kleur;
 
-	count++;
-
-	if (frituurpan == xvar) {
-		alert('good');
-	} else if (frituurpan == xvar1) {
-		alert('almost good');
-	} else if (frituurpan == xvar2) {
-		alert('almost good');
-	} else if (frituurpan == xvar3) {
-		alert('almost good');
+	if (frituurpan == randomArray[countEr]) {
+		document.getElementById('option' + count).innerHTML = ('good');
+	} else if (frituurpan == randomArray[0, 1, 2, 3]) {
+		document.getElementById('option' + count).innerHTML = ('almost good');
 	} else {
-		alert('false');
+		document.getElementById('option' + count).innerHTML = ('false');
 	}
 
+	countEr++;
+	count++;
 }
+
+
 
 
