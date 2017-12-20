@@ -125,10 +125,11 @@ h1{
 	background-color: white;
 	border-radius: 20px;
 	border: 2px solid black;
+	position: relative;
 
 }
 
-#option6{
+.option6{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
@@ -140,7 +141,7 @@ h1{
 	
 }
 
-#option7{
+.option7{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
@@ -151,7 +152,7 @@ h1{
 	left: 150px;
 }
 
-#option8{
+.option8{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
@@ -162,7 +163,7 @@ h1{
 	left: 250px;
 }
 
-#option9{
+.option9{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
@@ -541,3 +542,46 @@ h1{
 	left: 650px;
 }
 
+#check0{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 720px;
+	left: 70px;
+}
+
+#check1{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 720px;
+	right: 70px;
+}
+
+#check2{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 750px;
+	left: 70px;
+}
+
+#check3{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 750px;
+	right: 70px;
+}

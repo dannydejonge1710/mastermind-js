@@ -23,14 +23,14 @@ var randomArray = [w, x, y, z];
 function addColor(frituurpan){
 
 	var kleur = kleurenLijst [frituurpan];		
-	document.getElementById('option' + count).style.backgroundColor = kleur;
+	document.getElementById('row1').getElementsByClassName('option' + count)[0].style.backgroundColor = kleur;
 
 	if (frituurpan == randomArray[countEr]) {
-		document.getElementById('option' + count).innerHTML = ('good');
+		document.getElementById('check' + countEr).style.backgroundColor = ('red');
 	} else if (frituurpan == randomArray[0, 1, 2, 3]) {
-		document.getElementById('option' + count).innerHTML = ('almost good');
+		document.getElementById('check' + countEr).style.backgroundColor = ('black');
 	} else {
-		document.getElementById('option' + count).innerHTML = ('false');
+		document.getElementById('check' + countEr).style.backgroundColor = ('white');
 	}
 
 	countEr++;
