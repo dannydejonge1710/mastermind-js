@@ -113,7 +113,7 @@ h1{
 #mainBoard{
 	border: 2px solid black;
 	width: 450px;
-	height: 800px;
+	height: 870px;
 	background-image: url(../img/aluminium.jpg);
 	position: relative;
 	border-radius: 20px;
@@ -121,7 +121,7 @@ h1{
 
 #rightBoard{
 	width: 200px;
-	height: 800px;
+	height: 870px;
 	background-color: white;
 	border-radius: 20px;
 	border: 2px solid black;
@@ -129,298 +129,380 @@ h1{
 
 }
 
-.option6{
+#row1 .option6{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	background-color: black;
 	position: absolute;
-	top: 720px;
+	top: 790px;
 	left: 50px;
 	
 }
 
-.option7{
+#row1 .option7{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	background-color: black;
 	position: absolute;
-	top: 720px;
+	top: 790px;
 	left: 150px;
 }
 
-.option8{
+#row1 .option8{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	background-color: black;
 	position: absolute;
-	top: 720px;
+	top: 790px;
 	left: 250px;
 }
 
-.option9{
+#row1 .option9{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	background-color: black;
 	position: absolute;
+	top: 790px;
+	left: 350px;
+}
+
+#row2 .option6{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 4px solid white;
+	position: absolute;
+	top: 720px;
+	left: 50px;
+	
+}
+
+#row2 .option7{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 4px solid white;
+	position: absolute;
+	top: 720px;
+	left: 150px;
+}
+
+#row2 .option8{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 4px solid white;
+	position: absolute;
+	top: 720px;
+	left: 250px;
+}
+
+#row2 .option9{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 4px solid white;
+	position: absolute;
 	top: 720px;
 	left: 350px;
 }
 
-#option10{
+#row3 .option6{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 640px;
+	top: 650px;
 	left: 50px;
 	
 }
 
-#option11{
+#row3 .option7{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 640px;
+	top: 650px;
 	left: 150px;
 }
 
-#option12{
+#row3 .option8{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 640px;
+	top: 650px;
 	left: 250px;
 }
 
-#option13{
+#row3 .option9{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 640px;
+	top: 650px;
 	left: 350px;
 }
 
-#option14{
+#row4 .option6{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 560px;
+	top: 580px;
 	left: 50px;
 	
 }
 
-#option15{
+#row4 .option7{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 560px;
+	top: 580px;
 	left: 150px;
 }
 
-#option16{
+#row4 .option8{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 560px;
+	top: 580px;
 	left: 250px;
 }
 
-#option17{
+#row4 .option9{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 560px;
+	top: 580px;
 	left: 350px;
 }
 
-#option18{
+#row5 .option6{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 480px;
+	top: 510px;
 	left: 50px;
 	
 }
 
-#option19{
+#row5 .option7{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 480px;
+	top: 510px;
 	left: 150px;
 }
 
-#option20{
-	width: 50px; 
+#row5 .option8{
+	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 480px;
+	top: 510px;
 	left: 250px;
 }
 
-#option21{
+#row5 .option9{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 480px;
+	top: 510px;
 	left: 350px;
 }
 
-#option22{
+#row6 .option6{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 400px;
+	top: 440px;
 	left: 50px;
 	
 }
 
-#option23{
+#row6 .option7{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 400px;
+	top: 440px;
 	left: 150px;
 }
 
-#option24{
-	width: 50px; 
+#row6 .option8{
+	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 400px;
+	top: 440px;
 	left: 250px;
 }
 
-#option25{
+#row6 .option9{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 400px;
+	top: 440px;
 	left: 350px;
 }
 
-#option26{
+#row7 .option6{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 320px;
+	top: 370px;
 	left: 50px;
 	
 }
 
-#option27{
+#row7 .option7{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 320px;
+	top: 370px;
 	left: 150px;
 }
 
-#option28{
-	width: 50px; 
+#row7 .option8{
+	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 320px;
+	top: 370px;
 	left: 250px;
 }
 
-#option29{
+#row7 .option9{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 320px;
+	top: 370px;
 	left: 350px;
 }
 
-#option30{
+#row8 .option6{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 240px;
+	top: 300px;
 	left: 50px;
 	
 }
 
-#option31{
+#row8 .option7{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 240px;
+	top: 300px;
 	left: 150px;
 }
 
-#option32{
-	width: 50px; 
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 240px;
-	left: 250px;
-}
-
-#option33{
+#row8 .option8{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 240px;
+	top: 300px;
+	left: 250px;
+}
+
+#row8 .option9{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 4px solid white;
+	position: absolute;
+	top: 300px;
 	left: 350px;
 }
 
-#option34{
+#row9 .option6{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 4px solid white;
+	position: absolute;
+	top: 230px;
+	left: 50px;
+	
+}
+
+#row9 .option7{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 4px solid white;
+	position: absolute;
+	top: 230px;
+	left: 150px;
+}
+
+#row9 .option8{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 4px solid white;
+	position: absolute;
+	top: 230px;
+	left: 250px;
+}
+
+#row9 .option9{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 4px solid white;
+	position: absolute;
+	top: 230px;
+	left: 350px;
+}
+
+#row10 .option6{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
@@ -431,7 +513,7 @@ h1{
 	
 }
 
-#option35{
+#row10 .option7{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
@@ -441,8 +523,8 @@ h1{
 	left: 150px;
 }
 
-#option36{
-	width: 50px; 
+#row10 .option8{
+	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
@@ -451,7 +533,7 @@ h1{
 	left: 250px;
 }
 
-#option37{
+#row10 .option9{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
@@ -461,46 +543,88 @@ h1{
 	left: 350px;
 }
 
-#option38{
+#row11 .option6{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 80px;
+	top: 90px;
 	left: 50px;
 	
 }
 
-#option39{
+#row11 .option7{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 80px;
+	top: 90px;
 	left: 150px;
 }
 
-#option40{
-	width: 50px; 
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 80px;
-	left: 250px;
-}
-
-#option41{
+#row11 .option8{
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 	border: 4px solid white;
 	position: absolute;
-	top: 80px;
+	top: 90px;
+	left: 250px;
+}
+
+#row11 .option9{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 4px solid white;
+	position: absolute;
+	top: 90px;
 	left: 350px;
 }
+
+#row12 .option6{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 4px solid white;
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	
+}
+
+#row12 .option7{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 4px solid white;
+	position: absolute;
+	top: 20px;
+	left: 150px;
+}
+
+#row12 .option8{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 4px solid white;
+	position: absolute;
+	top: 20px;
+	left: 250px;
+}
+
+#row12 .option9{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 4px solid white;
+	position: absolute;
+	top: 20px;
+	left: 350px;
+}
+
 
 #test{
 	width: 50px;
@@ -542,46 +666,643 @@ h1{
 	left: 650px;
 }
 
-#check0{
+#checkRow1 .check0{
 	width: 20px;
 	height: 20px;
-	background-color: white;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 790px;
+	left: 70px;
+	display: none;
+	
+}
+
+#checkRow1 .check1{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 790px;
+	right: 70px;
+	display: none;
+	
+}
+
+#checkRow1 .check2{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 820px;
+	left: 70px;
+	display: none;
+
+}
+
+
+#checkRow1 .check3{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 820px;
+	right: 70px;
+	display: none;
+
+}
+
+#checkRow2 .check0{
+	width: 20px;
+	height: 20px;
+	background-color: black;
 	border-radius: 50%;
 	border: 2px solid black;
 	position: absolute;
 	top: 720px;
 	left: 70px;
+	display: none;
+	
 }
 
-#check1{
+#checkRow2 .check1{
 	width: 20px;
 	height: 20px;
-	background-color: white;
+	background-color: black;
 	border-radius: 50%;
 	border: 2px solid black;
 	position: absolute;
 	top: 720px;
 	right: 70px;
+	display: none;
+	
 }
 
-#check2{
+#checkRow2 .check2{
 	width: 20px;
 	height: 20px;
-	background-color: white;
+	background-color: black;
 	border-radius: 50%;
 	border: 2px solid black;
 	position: absolute;
 	top: 750px;
 	left: 70px;
+	display: none;
+
 }
 
-#check3{
+
+#checkRow2 .check3{
 	width: 20px;
 	height: 20px;
-	background-color: white;
+	background-color: black;
 	border-radius: 50%;
 	border: 2px solid black;
 	position: absolute;
 	top: 750px;
 	right: 70px;
+	display: none;
+
+}
+
+#checkRow3 .check0{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 650px;
+	left: 70px;
+	display: none;
+	
+}
+
+#checkRow3 .check1{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 650px;
+	right: 70px;
+	display: none;
+	
+}
+
+#checkRow3 .check2{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 680px;
+	left: 70px;
+	display: none;
+
+}
+
+
+#checkRow3 .check3{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 680px;
+	right: 70px;
+	display: none;
+
+}
+
+#checkRow4 .check0{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 580px;
+	left: 70px;
+	display: none;
+	
+}
+
+#checkRow4 .check1{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 580px;
+	right: 70px;
+	display: none;
+	
+}
+
+#checkRow4 .check2{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 610px;
+	left: 70px;
+	display: none;
+
+}
+
+
+#checkRow4 .check3{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 610px;
+	right: 70px;
+	display: none;
+
+}
+
+#checkRow5 .check0{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 510px;
+	left: 70px;
+	display: none;
+	
+}
+
+#checkRow5 .check1{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 510px;
+	right: 70px;
+	display: none;
+	
+}
+
+#checkRow5 .check2{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 540px;
+	left: 70px;
+	display: none;
+
+}
+
+
+#checkRow5 .check3{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 540px;
+	right: 70px;
+	display: none;
+
+}
+
+#checkRow6 .check0{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 440px;
+	left: 70px;
+	display: none;
+	
+}
+
+#checkRow6 .check1{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 440px;
+	right: 70px;
+	display: none;
+	
+}
+
+#checkRow6 .check2{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 470px;
+	left: 70px;
+	display: none;
+
+}
+
+
+#checkRow6 .check3{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 470px;
+	right: 70px;
+	display: none;
+
+}
+
+#checkRow7 .check0{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 370px;
+	left: 70px;
+	display: none;
+	
+}
+
+#checkRow7 .check1{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 370px;
+	right: 70px;
+	display: none;
+	
+}
+
+#checkRow7 .check2{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 400px;
+	left: 70px;
+	display: none;
+
+}
+
+
+#checkRow7 .check3{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 400px;
+	right: 70px;
+	display: none;
+
+}
+
+#checkRow8 .check0{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 300px;
+	left: 70px;
+	display: none;
+	
+}
+
+#checkRow8 .check1{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 300px;
+	right: 70px;
+	display: none;
+	
+}
+
+#checkRow8 .check2{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 330px;
+	left: 70px;
+	display: none;
+
+}
+
+
+#checkRow8 .check3{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 330px;
+	right: 70px;
+	display: none;
+
+}
+
+#checkRow9 .check0{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 230px;
+	left: 70px;
+	display: none;
+	
+}
+
+#checkRow9 .check1{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 230px;
+	right: 70px;
+	display: none;
+	
+}
+
+#checkRow9 .check2{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 260px;
+	left: 70px;
+	display: none;
+
+}
+
+
+#checkRow9 .check3{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 260px;
+	right: 70px;
+	display: none;
+
+}
+
+#checkRow10 .check0{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 160px;
+	left: 70px;
+	display: none;
+	
+}
+
+#checkRow10 .check1{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 160px;
+	right: 70px;
+	display: none;
+	
+}
+
+#checkRow10 .check2{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 190px;
+	left: 70px;
+	display: none;
+
+}
+
+
+#checkRow10 .check3{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 190px;
+	right: 70px;
+	display: none;
+
+}
+
+#checkRow11 .check0{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 90px;
+	left: 70px;
+	display: none;
+	
+}
+
+#checkRow11 .check1{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 90px;
+	right: 70px;
+	display: none;
+	
+}
+
+#checkRow11 .check2{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 120px;
+	left: 70px;
+	display: none;
+
+}
+
+
+#checkRow11 .check3{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 120px;
+	right: 70px;
+	display: none;
+
+}
+
+
+#checkRow12 .check0{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 20px;
+	left: 70px;
+	display: none;
+	
+}
+
+#checkRow12 .check1{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 20px;
+	right: 70px;
+	display: none;
+	
+}
+
+#checkRow12 .check2{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 50px;
+	left: 70px;
+	display: none;
+
+}
+
+
+#checkRow12 .check3{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+	top: 50px;
+	right: 70px;
+	display: none;
+
+}
+
+#chooseColor a{
+	text-decoration: none;
 }
