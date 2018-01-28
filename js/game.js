@@ -1,4 +1,5 @@
 var kleurenLijst = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
+var guess = [];
 var count = 6;
 var countEr = 0;
 var countRow = 1;
@@ -22,12 +23,10 @@ var randomArray = [w, x, y, z];
 
 
 function addColor(frituurpan){
-
-
+	
 
 	var kleur = kleurenLijst [frituurpan];		
 	document.getElementById('row' + countRow).getElementsByClassName('option' + count)[0].style.backgroundColor = kleur;
-
 
 		if (frituurpan == randomArray[countEr]) {
 			document.getElementById('checkRow' + countRow).getElementsByClassName('check' + countEr)[0].style.backgroundColor = ('green');
@@ -53,7 +52,8 @@ function addColor(frituurpan){
 			document.getElementById('checkRow' + countCheckRow).getElementsByClassName('check' + 3)[0].style.display = ('block');
 
 			countCheckRow++;
-		}	
+		}
+		
 }
 
 
