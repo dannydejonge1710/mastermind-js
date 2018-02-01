@@ -1,10 +1,30 @@
 var kleurenLijst = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
 var guess = [];
-var count = 6;
+var count = 0;
 var countEr = 0;
-var countRow = 1;
+var countRow = 0;
 var countCheckRow = 1;
 
+
+
+for(var x=0; x<12;x++) {
+
+	var row = document.createElement("div");
+
+	row.setAttribute("id", "myRow" + x);
+
+	document.getElementById('mainBoard').appendChild(row);
+
+
+	for(var i=0; i<4;i++) {
+
+		var bolletje = document.createElement("div");
+
+		bolletje.setAttribute("class", "myBolletje" + i);
+	
+		document.getElementById('myRow' + x).appendChild(bolletje);
+	}
+}
 
 
 var w = Math.floor((Math.random() * 6));
@@ -26,7 +46,7 @@ function addColor(frituurpan){
 	
 
 	var kleur = kleurenLijst [frituurpan];		
-	document.getElementById('row' + countRow).getElementsByClassName('option' + count)[0].style.backgroundColor = kleur;
+	document.getElementById('myRow' + countRow).getElementsByClassName('myBolletje' + count)[0].style.backgroundColor = kleur;
 
 		if (frituurpan == randomArray[countEr]) {
 			document.getElementById('checkRow' + countRow).getElementsByClassName('check' + countEr)[0].style.backgroundColor = ('green');
@@ -42,9 +62,9 @@ function addColor(frituurpan){
 		countEr++;
 		count++;	
 
-		if (count == 10) {
+		if (count == 4) {
 			countRow++;
-			count = 6;
+			count = 0;
 			countEr = 0;
 			document.getElementById('checkRow' + countCheckRow).getElementsByClassName('check' + 0)[0].style.display = ('block');
 			document.getElementById('checkRow' + countCheckRow).getElementsByClassName('check' + 1)[0].style.display = ('block');
@@ -55,5 +75,3 @@ function addColor(frituurpan){
 		}
 		
 }
-
-

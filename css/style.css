@@ -110,14 +110,42 @@ h1{
 	border-radius: 20px;
 }
 
+
+
+
+
+
 #mainBoard{
 	border: 2px solid black;
-	width: 450px;
+	width: 275px;
 	height: 870px;
 	background-image: url(../img/aluminium.jpg);
 	position: relative;
 	border-radius: 20px;
 }
+
+.myBolletje0, .myBolletje1, .myBolletje2, .myBolletje3{
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	border-radius: 50%;
+	border: 2px solid black;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#myRow0, #myRow1, #myRow2, #myRow3, #myRow4, #myRow5, #myRow6, #myRow7, #myRow8, #myRow9, #myRow10, #myRow11{
+	width: 275px;
+	height: 50px;
+	padding-top: 20px;
+	padding-left: 25px;
+	margin: 0 auto;
+}
+
+
+
+
+
 
 #rightBoard{
 	width: 200px;
@@ -127,502 +155,6 @@ h1{
 	border: 2px solid black;
 	position: relative;
 
-}
-
-#row1 .option6{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	background-color: black;
-	position: absolute;
-	top: 790px;
-	left: 50px;
-	
-}
-
-#row1 .option7{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	background-color: black;
-	position: absolute;
-	top: 790px;
-	left: 150px;
-}
-
-#row1 .option8{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	background-color: black;
-	position: absolute;
-	top: 790px;
-	left: 250px;
-}
-
-#row1 .option9{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	background-color: black;
-	position: absolute;
-	top: 790px;
-	left: 350px;
-}
-
-#row2 .option6{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 720px;
-	left: 50px;
-	
-}
-
-#row2 .option7{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 720px;
-	left: 150px;
-}
-
-#row2 .option8{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 720px;
-	left: 250px;
-}
-
-#row2 .option9{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 720px;
-	left: 350px;
-}
-
-#row3 .option6{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 650px;
-	left: 50px;
-	
-}
-
-#row3 .option7{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 650px;
-	left: 150px;
-}
-
-#row3 .option8{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 650px;
-	left: 250px;
-}
-
-#row3 .option9{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 650px;
-	left: 350px;
-}
-
-#row4 .option6{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 580px;
-	left: 50px;
-	
-}
-
-#row4 .option7{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 580px;
-	left: 150px;
-}
-
-#row4 .option8{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 580px;
-	left: 250px;
-}
-
-#row4 .option9{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 580px;
-	left: 350px;
-}
-
-#row5 .option6{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 510px;
-	left: 50px;
-	
-}
-
-#row5 .option7{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 510px;
-	left: 150px;
-}
-
-#row5 .option8{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 510px;
-	left: 250px;
-}
-
-#row5 .option9{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 510px;
-	left: 350px;
-}
-
-#row6 .option6{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 440px;
-	left: 50px;
-	
-}
-
-#row6 .option7{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 440px;
-	left: 150px;
-}
-
-#row6 .option8{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 440px;
-	left: 250px;
-}
-
-#row6 .option9{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 440px;
-	left: 350px;
-}
-
-#row7 .option6{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 370px;
-	left: 50px;
-	
-}
-
-#row7 .option7{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 370px;
-	left: 150px;
-}
-
-#row7 .option8{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 370px;
-	left: 250px;
-}
-
-#row7 .option9{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 370px;
-	left: 350px;
-}
-
-#row8 .option6{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 300px;
-	left: 50px;
-	
-}
-
-#row8 .option7{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 300px;
-	left: 150px;
-}
-
-#row8 .option8{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 300px;
-	left: 250px;
-}
-
-#row8 .option9{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 300px;
-	left: 350px;
-}
-
-#row9 .option6{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 230px;
-	left: 50px;
-	
-}
-
-#row9 .option7{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 230px;
-	left: 150px;
-}
-
-#row9 .option8{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 230px;
-	left: 250px;
-}
-
-#row9 .option9{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 230px;
-	left: 350px;
-}
-
-#row10 .option6{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 160px;
-	left: 50px;
-	
-}
-
-#row10 .option7{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 160px;
-	left: 150px;
-}
-
-#row10 .option8{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 160px;
-	left: 250px;
-}
-
-#row10 .option9{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 160px;
-	left: 350px;
-}
-
-#row11 .option6{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 90px;
-	left: 50px;
-	
-}
-
-#row11 .option7{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 90px;
-	left: 150px;
-}
-
-#row11 .option8{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 90px;
-	left: 250px;
-}
-
-#row11 .option9{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 90px;
-	left: 350px;
-}
-
-#row12 .option6{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 20px;
-	left: 50px;
-	
-}
-
-#row12 .option7{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 20px;
-	left: 150px;
-}
-
-#row12 .option8{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 20px;
-	left: 250px;
-}
-
-#row12 .option9{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	border: 4px solid white;
-	position: absolute;
-	top: 20px;
-	left: 350px;
 }
 
 
@@ -1305,4 +837,10 @@ h1{
 
 #chooseColor a{
 	text-decoration: none;
+}
+
+
+#myButton{
+	width: 50px;
+	height: 50px;
 }
