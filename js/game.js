@@ -27,6 +27,30 @@ for(var x=0; x<12;x++) {
 }
 
 
+
+
+for(var y=0; y<12;y++) {
+
+	var row = document.createElement("div");
+
+	row.setAttribute("id", "myCheckRow" + y);
+
+	document.getElementById('rightBoard').appendChild(row);
+
+
+	for(var j=0; j<4;j++) {
+
+		var bolletje = document.createElement("div");
+
+		bolletje.setAttribute("class", "myCheckBolletje" + j);
+	
+		document.getElementById('myCheckRow' + y).appendChild(bolletje);
+	}
+}
+
+
+
+
 var w = Math.floor((Math.random() * 6));
 document.getElementById('test').style.backgroundColor = kleurenLijst[w];
 
