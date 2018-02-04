@@ -7,47 +7,45 @@ var countCheckRow = 1;
 
 
 
-for(var x=0; x<12;x++) {
+for(var a=0; a<12;a++) {
 
 	var row = document.createElement("div");
 
-	row.setAttribute("id", "myRow" + x);
+	row.setAttribute("id", "myRow" + a);
 
 	document.getElementById('mainBoard').appendChild(row);
 
 
-	for(var i=0; i<4;i++) {
+	for(var b=0; b<4;b++) {
 
 		var bolletje = document.createElement("div");
 
-		bolletje.setAttribute("class", "myBolletje" + i);
+		bolletje.setAttribute("class", "myBolletje" + b);
 	
-		document.getElementById('myRow' + x).appendChild(bolletje);
+		document.getElementById('myRow' + a).appendChild(bolletje);
 	}
 }
 
 
 
-
-for(var y=0; y<12;y++) {
+for(var c=0; c<12;c++) {
 
 	var row = document.createElement("div");
 
-	row.setAttribute("id", "myCheckRow" + y);
+	row.setAttribute("id", "myCheckRow" + c);
 
 	document.getElementById('rightBoard').appendChild(row);
 
 
-	for(var j=0; j<4;j++) {
+	for(var d=0; d<4;d++) {
 
 		var bolletje = document.createElement("div");
 
-		bolletje.setAttribute("class", "myCheckBolletje" + j);
+		bolletje.setAttribute("class", "myCheckBolletje" + d);
 	
-		document.getElementById('myCheckRow' + y).appendChild(bolletje);
+		document.getElementById('myCheckRow' + c).appendChild(bolletje);
 	}
 }
-
 
 
 
@@ -66,36 +64,25 @@ document.getElementById('test3').style.backgroundColor = kleurenLijst[z];
 var randomArray = [w, x, y, z];
 
 
+
 function addColor(frituurpan){
-	
+
+	guess.push(frituurpan);
+	console.log(guess);
 
 	var kleur = kleurenLijst [frituurpan];		
 	document.getElementById('myRow' + countRow).getElementsByClassName('myBolletje' + count)[0].style.backgroundColor = kleur;
 
-		if (frituurpan == randomArray[countEr]) {
-			document.getElementById('checkRow' + countRow).getElementsByClassName('check' + countEr)[0].style.backgroundColor = ('green');
-			document.getElementById('checkRow' + countRow).getElementsByClassName('check' + countEr)[0].style.display = ('none');
-		} else if (frituurpan == randomArray[0, 1, 2, 3]) {
-			document.getElementById('checkRow' + countRow).getElementsByClassName('check' + countEr)[0].style.backgroundColor = ('yellow');
-			document.getElementById('checkRow' + countRow).getElementsByClassName('check' + countEr)[0].style.display = ('none');
-		} else {
-			document.getElementById('checkRow' + countRow).getElementsByClassName('check' + countEr)[0].style.backgroundColor = ('red');
-			document.getElementById('checkRow' + countRow).getElementsByClassName('check' + countEr)[0].style.display = ('none');
-		}
+	count++;
 
-		countEr++;
-		count++;	
+	if (guess.length == randomArray.length) {
 
-		if (count == 4) {
-			countRow++;
-			count = 0;
-			countEr = 0;
-			document.getElementById('checkRow' + countCheckRow).getElementsByClassName('check' + 0)[0].style.display = ('block');
-			document.getElementById('checkRow' + countCheckRow).getElementsByClassName('check' + 1)[0].style.display = ('block');
-			document.getElementById('checkRow' + countCheckRow).getElementsByClassName('check' + 2)[0].style.display = ('block');
-			document.getElementById('checkRow' + countCheckRow).getElementsByClassName('check' + 3)[0].style.display = ('block');
+		for (var tel = 0; tel < 4; tel++){
 
-			countCheckRow++;
-		}
-		
+			if (guess[tel] == randomArray[tel]) {
+				document.getElementById('myCheckRow' + countRow).getElementsByClassName('myCheckBolletje' + countEr)[0].style.backgroundColor = ('red');
+				countEr++;	
+			}
+		} 
+	}		
 }
