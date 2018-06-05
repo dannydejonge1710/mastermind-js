@@ -178,8 +178,7 @@ h1{
 	background-color: white;
 	border-radius: 50%;
 	position: absolute;
-	top: 200px;
-	left: 500px;
+
 } 
 
 #test1{
@@ -188,8 +187,7 @@ h1{
 	background-color: white;
 	border-radius: 50%;
 	position: absolute;
-	top: 200px;
-	left: 550px;
+	left: 50px;
 }
 
 #test2{
@@ -198,8 +196,7 @@ h1{
 	background-color: white;
 	border-radius: 50%;
 	position: absolute;
-	top: 200px;
-	left: 600px;
+	left: 100px;
 }
 
 #test3{
@@ -208,12 +205,21 @@ h1{
 	background-color: white;
 	border-radius: 50%;
 	position: absolute;
-	top: 200px;
-	left: 650px;
+	left: 150px;
 }
 
 
 
 #chooseColor a{
 	text-decoration: none;
+}
+
+#answerBoard{
+	width: 200px;
+	height: 60px;
+	background-color: white;
+	border-radius: 20px;
+	border: 2px solid black;
+	position: relative;
+
 }

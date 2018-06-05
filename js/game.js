@@ -6,6 +6,7 @@ var countRow = 0;
 var countCheckRow = 1;
 var gecontroleerd;
 var checked= [];
+var winArray = [];
 
 //Boord genereren
 
@@ -135,6 +136,8 @@ function addColor(frituurpan){
 
 	console.log('guess waar de aangeklikt kleuren in waren gepushed word weer geleegd');
 
+
+
 	}
 
 }
@@ -191,6 +194,7 @@ function checkFunction(){
 			console.log('19 de aangeklikte kleur staat op de goede plek, er word nu een 2 gepushed in de checked array');
 			checked.push(2);
 			answercopy[i] = -1;
+			console.log('het antwoord dat overeenkomt is uit de array gehaald zodat het deze niet nog een keer controleerd')
 		}
 	}
 
@@ -198,23 +202,31 @@ function checkFunction(){
 
 	for (var j = 0; j < 4; j++){
 
-		if(checked[j] !=2){
+		// hij checked voor elke van de 4 plekke  in de array of er een 2 staat, zo niet gaat hij door
+
+		if(checked[j] != 2){
 
 			console.log('21 er is hier geen 2 aangetoond. Nu gaat die in de volgende if statement checken of hij er helemaal niet inzit of dat hij er wel inzit maar op een andere plek.')
 			console.log('22 bij de volgende ifstatement kijkt hij weer of er van de overgebleven kleuren 1 inzit de overeen komt. aangezien de gene die op de goede plek staan al gecontroleerd zijn kan de if statement de overgebelven bolletjes controleren en vervolgens bij de egne die overeenkomen een 1 meegeven ')
 			for (var i = 0; i<4; i++){
 
-				if (guess[i] == kleurenLijst[answercopy[j]])
+				//vervolgens gaat die bij het nummer j waar die geen 2 vond alles
+
+				if (guess[i] == kleurenLijst[answercopy[j]]){
 
 				console.log('23 de gene die in deze if statement overeenkomen worden naar de checked array gepushed.')
 
 				checked.push(1);
 				answercopy[j] = -1;
+
+				console.log('De kleur is nu uit de answer array gehaald, want stel dat de speler 2 keer dezelfde kleur aanklikt mag hij niet 2x zoveel zwarte bolletjes creeeren')
+				
 				break;
+				//als het nummer van groen bv 3 is en groen komt er 2 keer in dan krijg je dus 2 keer een zwart bolletje. en daarom moet het antwoord er ook gelijk uit gehaald worden, zodat je niet als de speler 2 keer groen aanklikt , 4 zwarte bolletjes krijgt. 
+				}
 			}
 		}
 	}
-
 console.log('24 de checked array wordt gereturned en word in de variabele gecontroleerd gestopt.');
 return checked;
 }
@@ -255,8 +267,37 @@ function geefFeedback(gecontroleerdeArray){
 			console.log('29.2 de if statement ziet een 1 in de array en maakt het bolletje zwart');
 		}
 	}
+
+
+	winFunctie(gecontroleerdeArray);
 	gecontroleerd = [];
+
+	console.log(gecontroleerd);
 
 	console.log('30 de gecontroleerd array met de 1tjes en 2tjes zijn weer geleegd.');
 
+}
+
+function winFunctie(gecontroleerdwin){
+
+	console.log(gecontroleerdwin);
+	winArray = [];
+
+	for (var win = 0; win < 4; win++) {
+		
+		if (gecontroleerdwin[win] == 2) {
+			winArray.push(2);
+		}
+
+		if (winArray.length == 4) {
+			alert('YOU WIN!!!');
+			reloading();
+		}
+
+	}
+
+}
+
+function reloading(){
+  location.reload();
 }
